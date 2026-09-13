@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechExplorer from "./components/TechExplorer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <main>
         <Hero />
         <TechExplorer />
+
       </main>
+
+      <Footer />
 
     </>
   );
