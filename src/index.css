@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+    :root {
+        --brand-gradient: linear-gradient(90deg,
+                #ff5722 0%,
+                #d81b7e 50%,
+                #7c3aed 100%);
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        min-width: 320px;
+        min-height: 100vh;
+        background-color: #ffffff;
+        color: #0f172a;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    }
+}
+
+/* .brand-gradient {
+    background-image: var(--brand-gradient);
+} */
+
+.gradient-text {
+    background-image: var(--brand-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
