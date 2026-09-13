@@ -1,6 +1,7 @@
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import TechExplorer from "./components/TechExplorer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <main>
         <Hero />
+        <TechExplorer />
       </main>
 
     </>
