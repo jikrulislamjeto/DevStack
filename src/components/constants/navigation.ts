@@ -5,3 +5,18 @@ export const navigationLinks = [
     { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" },
 ];
+
+export const footerGroups = [
+    {
+        title: "Product",
+        links: ["Home", "Technologies", "Projects"],
+    },
+    {
+        title: "Company",
+        links: ["About", "Contact", "Careers"],
+    },
+    {
+        title: "Legal",
+        links: ["Privacy Policy", "Terms of Service"],
+    },
+];
